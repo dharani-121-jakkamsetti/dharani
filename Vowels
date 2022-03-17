@@ -1,0 +1,14 @@
+print("Enter the String: ")
+n = input()
+
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+newn = ""
+nlen = len(n)
+
+for i in range(nlen):
+    if n[i] not in vowels:
+        newn = newn + n[i]
+
+print("\nString after removing Vowels: ")
+n = newn
+print(n)
